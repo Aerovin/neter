@@ -328,15 +328,15 @@ footer p + p {
   header p {
     width: 100%;
   }
-}
-@media print {
-header {
+  header {
     padding: 5px 10px;
     position: relative;
 }
 header p {
     display: none;
 }
+}
+@media print {
   header p.view a small:before {
     content: 'at http://github.com/';
   }
