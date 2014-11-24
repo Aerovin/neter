@@ -327,13 +327,17 @@ footer p + p {
 
   header p {
     width: 100%;
+	display: none;
   }
   header {
     padding: 5px 10px;
     position: relative;
+	}
+body {
+    padding: 5px;
 }
-header p {
-    display: none;
+.wrapper {
+    background: none;
 }
 }
 @media print {
