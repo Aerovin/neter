@@ -340,6 +340,14 @@ body {
 .wrapper {
     background: none;
 }
+footer {
+    border-radius: 0;
+    padding: 10px;
+    width: auto;
+}
+footer p {
+    display: none;
+  }
 }
 @media print {
   header p.view a small:before {
