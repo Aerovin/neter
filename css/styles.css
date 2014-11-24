@@ -34,7 +34,9 @@ body {
 header, section, footer {
   display: block;
 }
-
+.center {
+    text-align: center;
+}
 a {
   color: #069;
   text-decoration: none;
