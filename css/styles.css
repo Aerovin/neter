@@ -345,7 +345,7 @@ footer {
     padding: 10px;
     width: auto;
 }
-footer p {
+footer p + p {
     display: none;
   }
 }
